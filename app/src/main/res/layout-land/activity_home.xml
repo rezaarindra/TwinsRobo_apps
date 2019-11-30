@@ -4,6 +4,253 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context=".HomeActivity"
+    android:background="@drawable/bg_dashboard"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="49dp"
+            android:background="@drawable/joss" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome To Twins Robo Apps"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textColor="@color/colorwhite"
+            android:fontFamily="@font/msmedium"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="reza"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textColor="@color/colorwhite"
+            android:fontFamily="@font/msmedium"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+
+        >
+        //section menu 1
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal">
+
+            //space atas
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"/>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/program_robot"
+                android:gravity="bottom"
+                android:text="Ga ketok cuk"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorblue"
+                android:textSize="14dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"/>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/program_robot"
+                android:gravity="bottom"
+                android:text="Ga ketok cuk"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorblue"
+                android:textSize="14dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"/>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/program_robot"
+                android:gravity="bottom"
+                android:text="Ga ketok cuk"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorblue"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+
+        //section menu 2
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal">
+
+            //space atas
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"/>
+            //akhir spasi atas
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/program_robot"
+                android:gravity="bottom"
+                android:text="Ga ketok cuk"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorblue"
+                android:textSize="14dp"
+                />
+            //spasi antar menu bawah
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"/>
+            //akhir spasi
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/program_robot"
+                android:gravity="bottom"
+                android:text="Ga ketok cuk"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorblue"
+                android:textSize="14dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"/>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/program_robot"
+                android:gravity="bottom"
+                android:text="Ga ketok cuk"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorblue"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+        //Akhir menu 2
+
+        //menu kanan
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:gravity="center_horizontal"
+            >
+            //space atas
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                />
+            //akhir spasi atas
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:background="@color/colorblue"
+                    android:layout_marginBottom="30dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Recent Login"
+                        android:textSize="20dp"
+                        android:fontFamily="@font/mssemibold"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="2dp"
+                        android:textColor="@color/colorwhite"
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        //akhir menu kanan
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

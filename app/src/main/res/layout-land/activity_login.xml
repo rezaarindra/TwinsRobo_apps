@@ -112,7 +112,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mssemibold"
-                android:text="Not Registered ? Sign Up here"
+                android:text="Have a account ? Please login"
                 android:textAllCaps="true"
                 android:textColor="@color/colorwhite"
                 android:textSize="12dp" />
@@ -128,7 +128,7 @@
                 android:layout_width="181dp"
                 android:layout_height="35dp"
                 android:background="@drawable/bg_btn_primary"
-                android:text="Sign In"
+                android:text="Sign Up"
                 android:textAllCaps="false"
                 android:textColor="@color/colorblue"
                 android:textSize="14dp"

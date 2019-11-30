@@ -15,6 +15,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class login extends AppCompatActivity {
 
@@ -22,6 +23,7 @@ public class login extends AppCompatActivity {
     Button btnSignup;
     TextView tvSignin;
     private FirebaseAuth mFirebaseAuth;
+    private FirebaseAuth.AuthStateListener mAuthStateListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +35,24 @@ public class login extends AppCompatActivity {
         password = findViewById(R.id.editText2);
         btnSignup = findViewById(R.id.button2);
         tvSignin = findViewById(R.id.textView);
+
+        // Sign in Firebase
+        mAuthStateListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser mFirebaseUser = mFirebaseAuth.getCurrentUser();
+                if ( mFirebaseUser != null ){
+                    Toast.makeText(login.this,"You are logged in",Toast.LENGTH_SHORT).show();
+                    Intent i = new Intent(login.this, HomeActivity.class);
+                    startActivity(i);
+                } else {
+                    Toast.makeText(login.this,"Please Login",Toast.LENGTH_SHORT).show();
+                }
+            }
+        };
+
+
+
         //sign up button
         btnSignup.setOnClickListener(new View.OnClickListener() {
             @Override

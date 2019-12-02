@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -69,51 +70,54 @@
                 android:layout_height="0dp"
                 android:layout_weight="0.6"/>
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/programrobot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/program_robot"
                 android:gravity="bottom"
-                android:text="Ga ketok cuk"
+                android:text="Program Robot's"
+                android:fontFamily="@font/msmedium"
                 android:padding="15dp"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@color/colorblue"
-                android:textSize="14dp"
+                android:textSize="11dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.1"/>
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/minigames"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/program_robot"
+                android:background="@drawable/mini_games"
                 android:gravity="bottom"
-                android:text="Ga ketok cuk"
+                android:text="Mini Games"
+                android:fontFamily="@font/msmedium"
                 android:padding="15dp"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@color/colorblue"
-                android:textSize="14dp"
+                android:textSize="11dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.1"/>
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/program_robot"
+                android:background="@drawable/learn_robot"
                 android:gravity="bottom"
-                android:text="Ga ketok cuk"
+                android:text="Learn Robot's"
+                android:fontFamily="@font/msmedium"
                 android:padding="15dp"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@color/colorblue"
-                android:textSize="14dp"
+                android:textSize="11dp"
                 />
         </LinearLayout>
 
@@ -134,17 +138,18 @@
                 android:layout_weight="0.6"/>
             //akhir spasi atas
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/cekrobot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/program_robot"
+                android:background="@drawable/check_robot"
                 android:gravity="bottom"
-                android:text="Ga ketok cuk"
+                android:text="Check My Robot's"
+                android:fontFamily="@font/msmedium"
                 android:padding="15dp"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@color/colorblue"
-                android:textSize="14dp"
+                android:textSize="11dp"
                 />
             //spasi antar menu bawah
             <LinearLayout
@@ -153,29 +158,31 @@
                 android:layout_weight="0.1"/>
             //akhir spasi
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/infolomba"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/program_robot"
+                android:background="@drawable/info_lomba"
                 android:gravity="bottom"
-                android:text="Ga ketok cuk"
+                android:text="Info Lomba"
+                android:fontFamily="@font/msmedium"
                 android:padding="15dp"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@color/colorblue"
-                android:textSize="14dp"
+                android:textSize="11dp"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.1"/>
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/aboutus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/program_robot"
+                android:background="@drawable/about_us"
                 android:gravity="bottom"
-                android:text="Ga ketok cuk"
+                android:text="About Us"
+                android:fontFamily="@font/msmedium"
                 android:padding="15dp"
                 android:textAlignment="center"
                 android:textAllCaps="false"
@@ -231,15 +238,9 @@
                         android:fontFamily="@font/mssemibold"
                         android:paddingLeft="20dp"
                         android:paddingTop="2dp"
-                        android:textColor="@color/colorwhite"
-
+                        android:textColor="#FFFF"/>
                 </LinearLayout>
-
-
             </LinearLayout>
-
-
-
         </LinearLayout>
         //akhir menu kanan
 
